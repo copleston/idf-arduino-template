@@ -14,7 +14,6 @@
 
 
 ## Python Installation
-Installation
 1. Install [home-brew](https://brew.sh/)
 2. Install Anaconda
 `brew cask install anaconda`
