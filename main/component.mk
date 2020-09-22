@@ -16,4 +16,5 @@ ARDUINO_USER_LIBS := $(foreach MODULE,$(ARDUINO_ULIBRARIES_LIST), $(ARDUINO_SING
 COMPONENT_ADD_INCLUDEDIRS := $(ARDUINO_USER_LIBS) . include
 COMPONENT_SRCDIRS := $(ARDUINO_USER_LIBS) . src
 
-COMPONENT_EMBED_TXTFILES :=  ${PROJECT_PATH}/server_certs/ca_cert.pem
+# If you need to use SSL, you need a cert
+# COMPONENT_EMBED_TXTFILES :=  ${PROJECT_PATH}/server_certs/ca_cert.pem
