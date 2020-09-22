@@ -8,9 +8,9 @@ EXTRA_COMPONENT_DIRS := ./components/
 
 # Note that the IDF path is inherited by the IDF path found in in the ESP_ADF directory's makefile
 # Comment out following line if using ADF
-include $(IDF_PATH)/make/project.mk
+# include $(IDF_PATH)/make/project.mk
 
 # Uncomment the Following line to use ADF
-# include $(ADF_PATH)/project.mk
-# include $(IDF_PATH)/make/project.mk
+include ./components/esp-adf/project.mk
+include $(IDF_PATH)/make/project.mk
 

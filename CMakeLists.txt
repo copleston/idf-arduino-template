@@ -3,7 +3,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 # Uncomment the following Line if you want to use the ADF
-# include($ENV{ADF_PATH}/CMakeLists.txt)
+include($ENV{ADF_PATH}/CMakeLists.txt)
 
 # Comment out the following line if you want to use the ADF
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)

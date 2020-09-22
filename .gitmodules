@@ -2,3 +2,7 @@
 	path = components/arduino
 	url = https://github.com/espressif/arduino-esp32.git
 	branch = latest-3.3
+[submodule "components/esp-adf"]
+	path = components/esp-adf
+	url = https://github.com/espressif/esp-adf.git
+	branch = tags/v2.0
